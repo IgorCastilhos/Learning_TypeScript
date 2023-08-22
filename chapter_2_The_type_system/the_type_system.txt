@@ -1,0 +1,29 @@
+O que é um Type?
+Um "Tipo" é uma descrição do que uma forma de valor JavaScript pode ser.
+Por "forma" quero dizer quais propriedades e métodos existem em um valor e como o operador interno typeof o descreveria.
+
+Por exemplo, quando criamos uma variável com o valor inicial "Athena":
+
+let singer = "Athena";
+
+TypeScript pode inferir, ou descobrir, que a variável singer é do tipo string.
+
+Os tipos mais básicos em TypeScript correspondem aos sete tipos básicos de primitivos em JavaScript:
+* null
+* undefined
+* boolean // true ou false
+* string // "", "Hi", "abc123",...
+* number // 0, 2.1, -4, ...
+* bigint // 0n, 2n, -4n, ...
+* symbol // Symbol(), Symbol("hi"), ...
+
+Para cada um desses valores, o TypeScript entende o tipo do valor como um dos sete primitivos básicos:
+
+* null; // null
+* undefined; // undefined
+* true; // boolean
+* "Igor"; // string
+* 1917; // number
+* 2023n; // bigint
+* Symbol("Franklin"); // symbol
+

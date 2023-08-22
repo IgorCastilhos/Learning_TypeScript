@@ -1,0 +1,15 @@
+Nada é constante
+
+Os valores podem mudar com o tempo
+
+(bem, exceto constantes)
+
+Agora, dois conceitos-chave com os quais o TypeScript trabalha para fazer inferências sobre esses valores:
+
+Unions
+Expandir o tipo permitido de um valor para dois ou mais tipos possíveis
+
+Narrowing
+Reduzindo o tipo permitido de um valor para não ser um ou mais tipos possíveis
+
+Juntos, unions e Narrowing são conceitos poderosos que permitem que o TypeScript faça inferências informadas em seu código que muitas outras linguagens convencionais não podem.
